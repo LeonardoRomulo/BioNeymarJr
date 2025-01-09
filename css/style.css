@@ -9,11 +9,102 @@
     box-sizing: border-box;
     margin: 0 auto;
     font-family: 'Yasabeau Infant' sans-serif;
+    text-decoration: none;
 }
 
 body {
     text-align: center;
 }
-.banner {
 
+h1::after {
+    content: url("../assets/verificado.png");
+    margin: 7px;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.banner  img{
+    margin: 80px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    z-index: 1;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+}
+
+
+nav {
+    margin: 60px auto;
+    text-align: center;
+}
+
+ul li  {
+    width: 1024px;
+    height: 50px;
+    border: 1px solid;
+    /* margin:  10px; */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* links personalização das imagnes */
+.link-youtube::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/youtube.png");
+    background-size: cover;
+    margin: 20px;
+}
+.link-instagram::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/instagram.png");
+    background-size: cover;
+    margin: 20px;
+}
+.link-twitter::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/twitter.png");
+    background-size: cover;
+    margin: 20px;
+}
+
+.link-facebook::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/facebook.png");
+    background-size: cover;
+    margin: 20px;
+}
+.link-twitch::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/twitch.png");
+    background-size: cover;
+    margin: 20px;
+}
+
+.estatisticas {
+    padding: 200px 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/imagem-de-fundo.jpg");
+    background-size: cover;
 }
