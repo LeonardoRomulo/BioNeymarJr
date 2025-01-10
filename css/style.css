@@ -106,6 +106,7 @@ li a {
  li:hover {
     background-color: #ffffff;
     color: black;
+    font-weight: bold;
 } 
 
 /* links personalização das imagnes */
